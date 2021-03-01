@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Heroic Features - Start Bootstrap Template</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" width="200px" alt=""></a>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#demoModal">Login</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#demoModa2">Register</a>
+        </li>
+      </ul>
+
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Nostros</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="modal fade" id="demoModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">LOGIN</h2>
+            <button type="button" class="close" data-bs-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- <p>INTRODUZCA LOS DATOS</p>
+            <hr> -->
+            <P>USUARIO</P><input type="text" placeholder="Usuario">
+            <p>CONSTRASEÑA</p>
+            <input type="text" placeholder="Password">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">LOGIN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="demoModa2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">REGISTER</h2>
+            <button type="button" class="close" data-bs-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- <p>INTRODUZCA LOS DATOS</p>
+            <hr> -->
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="firstname">Firstname</label>
+                    <input type="text" name="firstname" id="firstname">
+                    <!-- class="form-control is-valid"> -->
+                    <!-- <div class="valid-feedback">Looks good!</div> -->
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label for="lastname">Lastname</label>
+                  <input type="text" name="lastname" id="lastname" class="form-control">
+                  <!-- <small class="form-text text-muted">
+                    Ths should be your last name.
+                  </small> -->
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" name="username" id="username" class="form-control is-valid" required>
+
+              <!-- <div class="invalid-feedback">Please enter a valid username.</div> -->
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="text" name="password" id="password" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <select name="gender" id="gender" class="form-control">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <div class="form-check">
+                <input type="checkbox" id="accept-terms" class="form-check-input">
+              <label for="accept-terms" class="from-check-label">Accept Terms &amp; Condition</label>
+              </div>
+              <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+            </div>
+          </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">REGISTER</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Jumbotron Header -->
+    <header class="jumbotron">
+      <h1 class="display-5">KOSMETICO</h1>
+      <p class="lead"><img src="img/jumbo.jpg" width="100%" height="300px"alt=""></p>
+      <a href="index.html" class="btn btn-primary btn-lg">WELCOME</a>
+    </header>
+
+    <div class="container img">
+      <div class="row">
+        <div class="col">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/1-1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/2-2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/3-3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/4-4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Features -->
+    <div class="row text-center">
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/1-1.jpg" width="100%" height="30%" alt="">
+          <div class="card-body">
+            <h4 class="card-title">EQUILIBRIO</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/2-2.jpg" width="100%" height="30%" alt="">
+          <div class="card-body">
+            <h4 class="card-title">LIMPIO</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/3-3.jpg" width="100%" height="30%" alt="">
+          <div class="card-body">
+            <h4 class="card-title">CUIDADO</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="img/4-4.jpg" width="100%" height="30%" alt="">
+          <div class="card-body">
+            <h4 class="card-title">ATRACTIVO</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Find Out More!</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

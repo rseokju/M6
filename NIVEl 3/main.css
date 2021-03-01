@@ -1,0 +1,60 @@
+@import "vendor/bootstrap/css/bootstrap.min.css";
+body {
+  padding-top: 56px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+  margin-left: auto;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.main-form {
+  width: 450px;
+  margin: 10px auto auto auto;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.container .img {
+  max-width: 50%;
+  margin-bottom: 5%;
+  padding: 0 0;
+}
+
+.text {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.jumbotron {
+  background: rgba(221, 210, 210, 0.3);
+}
+
+/*# sourceMappingURL=main.css.map */
