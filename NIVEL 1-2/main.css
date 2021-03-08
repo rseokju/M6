@@ -11253,4 +11253,48 @@ footer {
   margin-top: 10px;
 }
 
+.text-primary {
+  color: #fc520f !important;
+}
+
+.text-secondary {
+  color: #1886e6 !important;
+}
+
+.text-success {
+  color: #ffee06 !important;
+}
+
+.text-info {
+  color: #2eff05 !important;
+}
+
+.text-warning {
+  color: #ff1727 !important;
+}
+
+.text-danger {
+  color: #6be5e9 !important;
+}
+
+.text-light {
+  color: #f300b6 !important;
+}
+
+.text-dark {
+  color: #4675cc !important;
+}
+
+.text-white {
+  color: #13d9e7d0 !important;
+}
+
+.text-body {
+  color: #212529 !important;
+}
+
+.text-muted {
+  color: #eb8817 !important;
+}
+
 /*# sourceMappingURL=main.css.map */
